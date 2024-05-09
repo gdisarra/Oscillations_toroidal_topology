@@ -10,3 +10,6 @@ Code for the simulation of poisson grid cell modules (uses functions stored in m
 
 ## utils
 Modified version of utility functions file from https://github.com/erikher/GridCellTorus.
+
+## jitter_spiketimes
+Plots the values of ${\bf \Gamma}$ for different values of jitter (data in Gamma_jit.pkl) in experimental data. Ouputs the values of $\Delta t_C^1$ and $\Delta t_C^2$ 
