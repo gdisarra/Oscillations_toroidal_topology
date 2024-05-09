@@ -1,5 +1,5 @@
 # Oscillations_toroidal_topology
-Code for the paper 'The role of oscillations in grid cells' toroidal topology'.
+Code for the paper 'The role of oscillations in grid cells' toroidal topology' by G. di Sarra, S. Jha and Y. Roudi.
 Data from Gardner et al. should be stored in the folder Toroidal_topology_grid_cell_data after download from https://figshare.com/articles/dataset/Toroidal_topology_of_population_activity_in_grid_cells/16764508
 
 ## Gamma_computation
