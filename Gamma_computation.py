@@ -133,7 +133,12 @@ def norm_bdistance(barcode1, barcode2):
             
             diams[i][j] = np.max(np.array([ persim.bottleneck([bd[0]],[bd[1]]) for bd in list(combinations(barcode[j],2))]))
             
-        
+    #or simply...
+    #for i,barcode in enumerate(barcodes):
+    #    for j in range(1,dims):
+    #        bar_max = barcode[j][np.where(np.diff(barcode[j], axis=1)==np.min(np.diff(barcode[j], axis=1)))[0][0]]
+    #        bar_min = barcode[j][np.where(np.diff(barcode[j], axis=1)==np.max(np.diff(barcode[j], axis=1)))[0][0]]
+     #       diams[i][j] =  persim.bottleneck([bar_max], [bar_min])
     
     
     
