@@ -108,6 +108,7 @@ def norm_bdistance(barcode1, barcode2):
     Returns
     -------
     Gamma : normalized bottleneck distance between the two lists in n-dimensions.
+    *Increase floating point precision
 
     '''
     
