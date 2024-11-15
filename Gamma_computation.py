@@ -41,7 +41,7 @@ def make_idealized_barcode_strict(barcode_in):
             longlived_min = np.min(longliveds)
             longlived_max = np.max(longliveds)
             min_life = np.nanmin(lifetimes[h])
-            barcode[h][:,1] = np.where( lifetimes[h] >= longlived_min, barcode[h][:,0] + longlived_max, min_life)
+            barcode[h][:,1] = np.where( lifetimes[h] >= longlived_min, barcode[h][:,0] + longlived_max, barcode[h][:,0] + min_life)
            
         else:
             longlived = np.max(lifetimes[h])
