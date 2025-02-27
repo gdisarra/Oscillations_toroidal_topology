@@ -1,5 +1,6 @@
 # Oscillations_toroidal_topology
-Code for the paper di Sarra G, Jha S, Roudi Y (2025) The role of oscillations in grid cells’ toroidal topology. PLOS Computational Biology 21(1): e1012776. https://doi.org/10.1371/journal.pcbi.1012776
+Code for the paper di Sarra G, Jha S, Roudi Y (2025) The role of oscillations in grid cells’ toroidal topology. PLOS Computational Biology 21(1): e1012776. https://doi.org/10.1371/journal.pcbi.1012776.
+
 Data from Gardner et al. should be stored in the folder Toroidal_topology_grid_cell_data after download from https://figshare.com/articles/dataset/Toroidal_topology_of_population_activity_in_grid_cells/16764508
 
 ## Gamma_computation
